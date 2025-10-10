@@ -7,7 +7,7 @@ SECRET_KEY = 'your-secret-key'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*.app.github.dev", "localhost"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
